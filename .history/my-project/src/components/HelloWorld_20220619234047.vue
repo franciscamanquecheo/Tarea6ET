@@ -5,7 +5,7 @@
      <div>
   
        
-       <a href="\table.html">
+       <a href="pagPrincipal.html">
       <img src="\my-project\src\assets\home.png" style="width:42px;height:42px;">
       </a>
       <span>Formulario alumno</span>
@@ -37,7 +37,29 @@
 
           <br><br>
           <button type="submit" class="btn btn-primary">Inscribir alumno</button>
-</form>
+
+      </form>
+      <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombres</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">rut</th>
+      <th scope="col">curso</th>
+
+    </tr>
+    </thead>
+    <tbody>
+
+     <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+
+    </tbody>
+  </table>
   </body>
   
 </template>
@@ -77,7 +99,10 @@ body {
     font-size: medium;
   }
  
-  
+   table,th,td{
+     border:1px solid black;
+    font-size: 40px;
+  }
  
   form{
     text-align: center;

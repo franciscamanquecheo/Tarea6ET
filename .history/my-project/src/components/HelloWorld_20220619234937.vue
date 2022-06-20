@@ -5,7 +5,7 @@
      <div>
   
        
-       <a href="\table.html">
+       <a href="table.html">
       <img src="\my-project\src\assets\home.png" style="width:42px;height:42px;">
       </a>
       <span>Formulario alumno</span>

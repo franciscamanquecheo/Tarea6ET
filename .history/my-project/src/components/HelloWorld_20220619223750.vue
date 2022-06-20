@@ -1,17 +1,6 @@
 
-/*use eslint-disable */
-<template>
-  <body>
-     <div>
-  
-       
-       <a href="\table.html">
-      <img src="\my-project\src\assets\home.png" style="width:42px;height:42px;">
-      </a>
-      <span>Formulario alumno</span>
-  
-     </div>
 
+<template>
   <form>
         <br><br>
           <label for="exampleInputEmail1">Nombres</label>
@@ -22,24 +11,21 @@
           <input type="password" class="form-control" id="exampleInputPassword1"><br><br>
           <label for="lname">E-mail:</label>
           <input type="text" id="correo" name="correo">
-          <br>
-          <br>
+          <br></br>
           <label for="fname">Curso </label>
           <select name="name-cursos" id="Cursos">
-            <option value="rigatoni">Escoja</option>
-           <option value="rigatoni">Artes modernas</option>
+
+            <option value="rigatoni">elijeee</option>
+           <option value="rigatoni">Mate</option>
             <option value="rigatoni">Lengua</option>
-             <option value="rigatoni">Baile artistico</option>
-              <option value="rigatoni">Ingles Medio</option>
           </select>
           
 
 
           <br><br>
           <button type="submit" class="btn btn-primary">Inscribir alumno</button>
-</form>
-  </body>
-  
+
+      </form>
 </template>
 
 <script>
@@ -53,36 +39,19 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-//<style scoped>
-body {
-    background-color: lightblue;
-  }
-  img{
-    text-align: left;
-
-  }
-  span{
-    color: aliceblue; font-size: 60px;
-    text-align: center;
-    
-  }
-  div{
-    
-    background-color: black;
-            padding: 5px;
-            font-size: 20px;
-    
-  }
-  button{
-    font-size: medium;
-  }
- 
-  
- 
-  form{
-    text-align: center;
-  }
-  .table{
-    font-size: 40px;
-  }
+<style scoped>
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
 </style>

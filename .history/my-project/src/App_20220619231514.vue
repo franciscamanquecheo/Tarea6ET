@@ -5,6 +5,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import tabla from './components/tabla.vue'
 
 export default {
   name: 'App',

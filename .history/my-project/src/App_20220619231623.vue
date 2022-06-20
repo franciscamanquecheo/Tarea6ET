@@ -1,16 +1,20 @@
 <template>
   
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <tabla msg="holos">
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import tabla from './components/tabla.vue'
+import Tabla from './components/tabla.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+    Tabla
+}
 }
 </script>
 

@@ -5,10 +5,10 @@
      <div>
   
        
-       <a href="\table.html">
+       <a href="pagPrincipal.html">
       <img src="\my-project\src\assets\home.png" style="width:42px;height:42px;">
       </a>
-      <span>Formulario alumno</span>
+      <span>Crear Alumno</span>
   
      </div>
 
@@ -37,9 +37,26 @@
 
           <br><br>
           <button type="submit" class="btn btn-primary">Inscribir alumno</button>
-</form>
+
+      </form>
+      <table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table> 
   </body>
-  
 </template>
 
 <script>
@@ -77,7 +94,7 @@ body {
     font-size: medium;
   }
  
-  
+ 
  
   form{
     text-align: center;

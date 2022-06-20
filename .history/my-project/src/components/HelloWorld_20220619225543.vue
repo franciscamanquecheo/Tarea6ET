@@ -1,14 +1,14 @@
 
-/*use eslint-disable */
+
 <template>
   <body>
      <div>
   
        
-       <a href="\table.html">
+       <a href="pagPrincipal.html">
       <img src="\my-project\src\assets\home.png" style="width:42px;height:42px;">
       </a>
-      <span>Formulario alumno</span>
+      <span>Crear Alumno</span>
   
      </div>
 
@@ -23,9 +23,9 @@
           <label for="lname">E-mail:</label>
           <input type="text" id="correo" name="correo">
           <br>
-          <br>
           <label for="fname">Curso </label>
           <select name="name-cursos" id="Cursos">
+
             <option value="rigatoni">Escoja</option>
            <option value="rigatoni">Artes modernas</option>
             <option value="rigatoni">Lengua</option>
@@ -37,9 +37,9 @@
 
           <br><br>
           <button type="submit" class="btn btn-primary">Inscribir alumno</button>
-</form>
+
+      </form>
   </body>
-  
 </template>
 
 <script>
@@ -59,7 +59,6 @@ body {
   }
   img{
     text-align: left;
-
   }
   span{
     color: aliceblue; font-size: 60px;
@@ -73,11 +72,8 @@ body {
             font-size: 20px;
     
   }
-  button{
-    font-size: medium;
-  }
  
-  
+ 
  
   form{
     text-align: center;

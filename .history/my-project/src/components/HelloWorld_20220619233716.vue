@@ -5,10 +5,10 @@
      <div>
   
        
-       <a href="\table.html">
+       <a href="pagPrincipal.html">
       <img src="\my-project\src\assets\home.png" style="width:42px;height:42px;">
       </a>
-      <span>Formulario alumno</span>
+      <span>Crear Alumno</span>
   
      </div>
 
@@ -37,7 +37,31 @@
 
           <br><br>
           <button type="submit" class="btn btn-primary">Inscribir alumno</button>
-</form>
+
+      </form>
+      <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombres</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">rut</th>
+      <th scope="col">curso</th>
+
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr th:each="alumno : ${alumnos}">
+      <th th:text="${alumno.getid_Alumno()}" scope="row"></th>
+      <td th:text="${alumno.getnombres()}"></td>
+      <td th:text="${alumno.getpellidos()}"></td>
+      <td th:text="${alumno.getrut()}"></td>
+      <td th:text="${alumno.getcurso()}"></td>
+    </tr>
+
+    </tbody>
+  </table>
   </body>
   
 </template>
@@ -77,7 +101,7 @@ body {
     font-size: medium;
   }
  
-  
+ 
  
   form{
     text-align: center;
